@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title>Top Albums</title>
+    <meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  /*background: #000000;*/
+}
+
+/* Style the header */
+header {
+  background-color: #000000;
+  padding: 15px;
+  text-align: center;
+  font-size: 5vw;
+  color: #ffffff;
+  border: solid #806600 10px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 1500px;
+  background: #000000;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: verdana;
+  text-align: center;
+}
+    
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1500px;
+  background-color: #5c0099;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;   
+}
+
+/* Style the footer */
+footer {
+  background-color: #1f0033;
+  padding: 15px;
+  text-align: center;
+  color: #806600;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link{
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover{
+  color: white;
+  cursor: pointer;
+}
+    
+/*Style the button links*/
+button:link {
+  color: white;
+}    
+ 
+button:visited{
+  color: white;
+}
+/*#5c0099*/     
+    
+button:hover{
+  color: #806600;
+  background-color: white;
+}   
+
+button{
+    width: 100%;
+    font-size:20px;
+    background-color: black;
+    border: 2px solid #5c0099;
+    border-radius:10px;
+    color:white;
+    padding:7.5px;
+    outline: none;
+    font-family: ;
+    cursor: pointer;
+}
+    
+/*Style Image*/    
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*img.logo{
+    width: 277px;
+    height 121px;
+}*/
+
+/*Style Paragraph*/    
+p{
+  color: white;  
+}
+
+/*Style ordered list*/    
+ol{
+  color: white;
+  text-align: left;
+}
+
+    
+/*Style Scroll bar*/    
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #000000; 
+  border-radius: 10px;
+}/*#806600*/
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #806600; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4d3d00; 
+}
+    
+    h2{
+        margin: 12.5px;
+    }
+</style>
+
+    <link rel="icon" href="https://iscale.iheart.com/catalog/artist/44368">
+</head>
+<body>
+
+<header>
+    <h2 style = "margin: 0px; float: center"><a href = "index.html">𝔍𝔲𝔰𝔱𝔦𝔫 𝔅𝔦𝔢𝔟𝔢𝔯</a></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><button onclick="document.location = 'index.html'">ʜᴏᴍᴇ ᴘᴀɢᴇ</button></li>
+        <br>
+      <li><button onclick="document.location = 'About the Artist.html'">ᴀʙᴏᴜᴛ ᴛʜᴇ ᴀʀᴛɪꜱᴛ</button></li>
+        <br>
+      <li><button onclick="document.location = 'Top Albums.html'">ᴛᴏᴘ ᴀʟʙᴜᴍ</button></li>
+        <br>
+      <li><button onclick="document.location = 'Media.html'">ᴍᴇᴅɪᴀ</button></li>
+        <br>
+      <li><button onclick="document.location = 'Tour.html'">ᴛᴏᴜʀ</button></li>
+        <br>
+      <li><img class = "logo" src = "https://i.pinimg.com/originals/79/9a/9b/799a9b4f6793edfcc86c3a8fea4871c7.png" alt = "Justin Bibeer Logo"/></li>
+    </ul>
+  </nav>
+  
+  <article>
+      <h1 style = "color: white; font-size: 50px; border: 5px solid white; border-radius: 5px">𝗧𝗼𝗽 𝗔𝗹𝗯𝘂𝗺𝘀
+</h1>
+      
+      <table align = "center">
+          
+          <tr>
+              <th style = "color: white">My World 2.0</th>
+              <td><img src ="https://upload.wikimedia.org/wikipedia/en/b/b9/Myworld2.jpg" alt = "Justin Bieber <i>My World 2.0</i> Album Cover"/></td>
+              
+              <td>
+                  <ol>
+                      <li>Baby <small>Feat.</small> Ludacris</li>
+                      <li>Somebody To Love</li>
+                      <li>Stuck In The Moment</li>
+                      <li>U Smile</li>
+                      <li>Runaway Love</li>
+                      <li>Never Let You Go</li>
+                      <li>Overboard <small>Feat.</small> Jessica Jarrell</li>
+                      <li>Eenie Meenie Justin Bieber &#38; Sean Kingston</li>
+                      <li>Up</li>
+                      <li>That Should Be Me</li>
+                  </ol>
+              </td>    
+          </tr>    
+          
+          <tr>
+              <th style = "color: white;">Believe</th>
+              <td><img src ="https://upload.wikimedia.org/wikipedia/en/0/01/Believe-JB-Album.jpg" alt = "Justin Bieber <i>Believe</i> Album Cover"/></td> 
+              
+              <td>
+                  <ol>
+                      <li>All Around The World <small>Feat.</small> Ludacris</li>
+                      <li>Boyfriend</li>
+                      <li>As Long As You Love Me <small>Feat.</small> Big Sean</li>
+                      <li>Catching Feelings</li>
+                      <li>Take You</li>
+                      <li>Right Here <small>Feat.</small> Drake</li>
+                      <li>Fall</li>
+                      <li>Die In Your Arms</li>
+                      <li>Thought Of You</li>
+                      <li>Beauty And A Beat <small>Feat.</small> Nicki Minaj</li>
+                      <li>One Love</li>
+                      <li>Be Alright</li>
+                      <li>Believe</li>
+                  </ol>
+              </td>    
+          </tr>
+          
+          <tr>
+          <th style = "color: white;">Purpose</th>
+              <td><img src = "https://upload.wikimedia.org/wikipedia/en/2/27/Justin_Bieber_-_Purpose_%28Official_Album_Cover%29.png" alt = "Justin Bieber <i>Purpose</i> Album Cover"/></td>
+              
+              <td>
+                  <ol>
+                      <li>Mark My Words</li>
+                      <li>I'll Show You</li>
+                      <li>What Do You Mean</li>
+                      <li>Sorry</li>
+                      <li>Love Yourself</li>
+                      <li>Company</li>
+                      <li>No Pressure <small>Feat.</small> Big Sean</li>
+                      <li>No Sense <small>Feat.</small> Travis Scott</li>
+                      <li>The Feeling <small>Feat.</small> Halsey</li>
+                      <li>Life Is Worth Living</li>
+                      <li>Where Are U Now <small>Feat.</small> Diplo &#38; Skrillex</li>
+                      <li>Children</li>
+                      <li>Purpose</li>
+                      <li>Been You</li>
+                      <li>Get Used To Me</li>
+                      <li>We Are <small>Feat.</small> Nas</li>
+                      <li>Trust</li>
+                      <li>All In It</li>
+                      <li>Hit The Ground</li>
+                      <li>The Most</li>
+                 </ol>
+             </td>
+         </tr>
+          
+      </table>
+  </article>
+  
+</section>
+
+<footer>
+    <em>Copyright &#169; 2020 Holli Robinson. All rights reserved.</em>
+</footer>
+
+</body>
+</html>
